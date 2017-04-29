@@ -11,7 +11,7 @@ Add all new songs posted on /r/indieheads into a spotify playlist when this appl
 - Check out the project
 - Configure your Spotify and Reddit API keys in app.py variables. Set your redirect uri to be something like 'http://localhost:5000/callback'. You also need to add your spotify playlist id and user id to the file.
 - Run the project in command line (```python index.py```)
-- A window may open in your browser. Copy the link and paste it in the console to verify your user information.
+- In your borwser go to http://localhost:5000/. A window may open in your browser. Copy the link and paste it in the console to verify your user information.
 - The program will attempt to add all new songs (tagged with [FRESH]) into the playlist from the last 3 days, although this can be configured for as often as you like. 
 - When it has finished the screen will show all song id's that have been added.
 
